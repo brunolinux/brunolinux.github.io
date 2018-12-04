@@ -1,16 +1,24 @@
 {
   "assetsByChunkName": {
-    "path---dark-net-cnn-source-code-analyse": [
-      "path---dark-net-cnn-source-code-analyse-0aa53d24096e16a20569.js",
-      "path---dark-net-cnn-source-code-analyse-0aa53d24096e16a20569.js.map"
+    "path---back-propagation-based-on-matrix-derivative": [
+      "path---back-propagation-based-on-matrix-derivative-39c759940eb44fb0b68c.js",
+      "path---back-propagation-based-on-matrix-derivative-39c759940eb44fb0b68c.js.map"
+    ],
+    "path---ubuntu-16-04-cuda-pytorch-inde": [
+      "path---ubuntu-16-04-cuda-pytorch-inde-96dd236a987414821078.js",
+      "path---ubuntu-16-04-cuda-pytorch-inde-96dd236a987414821078.js.map"
+    ],
+    "path---dark-net-framework-introduction": [
+      "path---dark-net-framework-introduction-394a327084a47a0b4ff5.js",
+      "path---dark-net-framework-introduction-394a327084a47a0b4ff5.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----8e691cc3d45ccc7942ee.js",
-      "path----8e691cc3d45ccc7942ee.js.map"
+      "path----623608e65f1775937e2c.js",
+      "path----623608e65f1775937e2c.js.map"
     ],
     "path---python-scope": [
       "path---python-scope-33d56b83f932eba98dc0.js",
@@ -33,8 +41,12 @@
       "path---cheatsheets-2a0da7f023f7c6357e2c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-ff03b727f34a861dfe79.js",
-      "component---src-layouts-index-js-ff03b727f34a861dfe79.js.map"
+      "component---src-layouts-index-js-931e02529c98350736bc.js",
+      "component---src-layouts-index-js-931e02529c98350736bc.js.map"
+    ],
+    "path---a-primary-neural-network-framwork-by-python": [
+      "path---a-primary-neural-network-framwork-by-python-940e7a6e178e67d3d214.js",
+      "path---a-primary-neural-network-framwork-by-python-940e7a6e178e67d3d214.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -45,9 +57,9 @@
       "component---src-pages-search-js-0b92e4d7c3a5736ae151.js.map"
     ],
     "commons": [
-      "commons-7dadf5fa9ddaa4eb8b31.js",
+      "commons-89ec61f4bc2149dbf9d2.js",
       "build-js-styles.css",
-      "commons-7dadf5fa9ddaa4eb8b31.js.map",
+      "commons-89ec61f4bc2149dbf9d2.js.map",
       "build-js-styles.css.map"
     ],
     "path---success": [
@@ -67,9 +79,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-f46259a2b5652bc066f4.js",
+      "app-cf0599472a031132ca3a.js",
       "build-js-styles.css",
-      "app-f46259a2b5652bc066f4.js.map",
+      "app-cf0599472a031132ca3a.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -79,6 +91,10 @@
     "path---search": [
       "path---search-976222e0528a751b1f5c.js",
       "path---search-976222e0528a751b1f5c.js.map"
+    ],
+    "path---dark-net-cnn-analyse": [
+      "path---dark-net-cnn-analyse-2fb8b3c0e26022efa4bc.js",
+      "path---dark-net-cnn-analyse-2fb8b3c0e26022efa4bc.js.map"
     ],
     "path---about": [
       "path---about-e615814945a5d53f62fa.js",

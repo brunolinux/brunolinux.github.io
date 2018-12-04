@@ -1,223 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bruno's blog]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 03 Dec 2018 08:22:49 GMT</lastBuildDate><item><title><![CDATA[How to customize the PersonalBlog starter's appearance]]></title><description><![CDATA[The  starter  uses a theme object so base customization is really easy. Find the   file. … Front-end web development To read the whole…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/customize-personal-blog-starter/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/customize-personal-blog-starter/</guid><content:encoded>&lt;p&gt;The &lt;a href=&quot;/gatsby-starter-personal-blog/&quot;&gt;starter&lt;/a&gt; uses a theme object so base customization is really easy.&lt;/p&gt;
-&lt;p&gt;Find the &lt;code class=&quot;language-text&quot;&gt;theme.js&lt;/code&gt; file.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;root
-  ├── src
-  │   ├── styles
-  │   │   ├── colors.js
-  │   │   ├── globals.js
-  │   │   └── theme.js&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;h4&gt;Front-end web development&lt;/h4&gt;
-&lt;p&gt;To read the whole instruction article - &lt;a href=&quot;https://dev.greglobinski.com/customize-personal-blog-starter/&quot;&gt;How to customize the personalBlog starter’s appearance&lt;/a&gt; - you have to move to &lt;a href=&quot;https://dev.greglobinski.com&quot;&gt;Front-end web development with Greg&lt;/a&gt; website.&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;p&gt;Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-699d0.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 46.08233731739708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAByOzlwwof/8QAGxAAAgEFAAAAAAAAAAAAAAAAAQIxAxIiM0L/2gAIAQEAAQUCVLQXyM1tXTT/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ASf/xAAYEAACAwAAAAAAAAAAAAAAAAAAASAhMf/aAAgBAQAGPwK2bH//xAAZEAACAwEAAAAAAAAAAAAAAAAAARAhMXH/2gAIAQEAAT8hS99GVdIuNx4g/9oADAMBAAIAAwAAABBrD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAETH/2gAIAQIBAT8Qwj//xAAaEAEAAgMBAAAAAAAAAAAAAAABACERMaGx/9oACAEBAAE/ECrIXoIWLNWxKCX252Hs5ybZ/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
-        title=&quot;&quot;
-        src=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-dce19.jpg 200w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-c1413.jpg 400w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-78f2b.jpg 800w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-ab4c4.jpg 1200w,
-/static/photo-1463852247062-1bbca38f7805-a3b23c58902850ed9b4fa458aa658292-699d0.jpg 1506w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.&lt;/p&gt;
-&lt;h3&gt;Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.&lt;/h3&gt;
-&lt;p&gt;Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.&lt;/p&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. . Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;h3&gt;Aenean bibendum iaculis mi, nec blandit lacus interdum vitae&lt;/h3&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
-&lt;h3&gt;Donec hendrerit laoreet risus eget adipiscing.&lt;/h3&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setup Algolia account for your GatsbyJS blog]]></title><description><![CDATA[As I wrote in the  Starter Instalation  post the starter needs access data to your  Algolia  account. If you do not have an Algolia account…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/setup-algolia-account/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/setup-algolia-account/</guid><content:encoded>&lt;p&gt;As I wrote in the &lt;a href=&quot;/install-personal-blog-starter/&quot;&gt;Starter Instalation&lt;/a&gt; post the starter needs access data to your &lt;a href=&quot;https://www.algolia.com/&quot;&gt;Algolia&lt;/a&gt; account.&lt;/p&gt;
-&lt;p&gt;If you do not have an Algolia account yet you have to &lt;a href=&quot;https://www.algolia.com/users/sign_up&quot;&gt;sign up&lt;/a&gt; now.&lt;/p&gt;
-&lt;p&gt;If you already have an account go and open the &lt;a href=&quot;https://www.algolia.com/manage/applications&quot;&gt;Apps&lt;/a&gt; page and click the &lt;strong&gt;NEW APPLICATION&lt;/strong&gt; button.&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;h4&gt;Front-end web development&lt;/h4&gt;
-&lt;p&gt;To read the whole instruction article - &lt;a href=&quot;https://dev.greglobinski.com/setup-algolia-account/&quot;&gt;Setup Algolia account for your GatsbyJS blog&lt;/a&gt; - you have to move to &lt;a href=&quot;https://dev.greglobinski.com&quot;&gt;Front-end web development with Greg&lt;/a&gt; website.&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;h3&gt;Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.&lt;/h3&gt;
-&lt;p&gt;Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-f16ff.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.73333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAG59XKQqE//xAAaEAADAAMBAAAAAAAAAAAAAAAAAQIDEiET/9oACAEBAAEFApritMb6sUnnJpJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhABAQEAAAAAAAAAAAAAAAAAADEg/9oACAEBAAY/AsRH/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQMSFBUf/aAAgBAQABPyFYrXGT0YaD5T//2gAMAwEAAgADAAAAEEgv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/EJqP/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIUFRYXH/2gAIAQEAAT8QqNgTxNP2BbZ2OBIyW09i3Yf/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
-        title=&quot;&quot;
-        src=&quot;/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-dce19.jpg 200w,
-/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-c1413.jpg 400w,
-/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-78f2b.jpg 800w,
-/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-ab4c4.jpg 1200w,
-/static/photo-1507915600431-5292809c5ab7-40d4f4de1973c24726e4ef65ef5fd03e-f16ff.jpg 1500w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;h3&gt;Donec hendrerit laoreet risus eget adipiscing.&lt;/h3&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to install, setup and add new content to the personalBlog starter]]></title><description><![CDATA[You install the starter like any other  GatsbyJS starter . … Front-end web development To read the whole instruction article -  How to…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/install-personal-blog-starter/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/install-personal-blog-starter/</guid><content:encoded>&lt;p&gt;You install the starter like any other &lt;a href=&quot;https://www.gatsbyjs.org/docs/gatsby-starters/&quot;&gt;GatsbyJS starter&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby new [NEW_SITE_DIRECTORY_FOR_YOUR_BLOG] https://github.com/greglobinski/gatsby-starter-personal-blog.git&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;h4&gt;Front-end web development&lt;/h4&gt;
-&lt;p&gt;To read the whole instruction article - &lt;a href=&quot;https://dev.greglobinski.com/install-personal-blog-starter/&quot;&gt;How to install, setup and add new content to the personalBlog starter&lt;/a&gt; - you have to move to &lt;a href=&quot;https://dev.greglobinski.com&quot;&gt;Front-end web development with Greg&lt;/a&gt; website.&lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-314f0.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 62.02185792349726%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAW7lvZonAV//xAAbEAEAAgIDAAAAAAAAAAAAAAABAAIREwMSMf/aAAgBAQABBQLUZ1jCnUORhdzb3//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAwEBPwGYj//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/Aar/xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhEEH/2gAIAQEABj8CxElXMCed/8QAHRABAAICAgMAAAAAAAAAAAAAAQARIUExUWGBsf/aAAgBAQABPyHH954lZBae49CPLMV+IpYC3UTtP//aAAwDAQACAAMAAAAQXM//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQMBAT8QaCZf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QHP8A/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFBUeH/2gAIAQEAAT8Q3VOhfqCnPDRgIrtoW4vB6aJcqnaKVybRLRln/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
-        title=&quot;&quot;
-        src=&quot;/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-dce19.jpg 200w,
-/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-c1413.jpg 400w,
-/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-78f2b.jpg 800w,
-/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-ab4c4.jpg 1200w,
-/static/photo-1465070845512-2b2dbdc6df66-c05f925825606e19a957283ac76dc0db-314f0.jpg 1464w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h3&gt;Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.&lt;/h3&gt;
-&lt;p&gt;Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; lang &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;/\blang(?:uage)?-(\w+)\b/i&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; uniqueId &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;h3&gt;Donec hendrerit laoreet risus eget adipiscing.&lt;/h3&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.&lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[There are only two ways to live your life.]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/there-are-only-two-2/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/there-are-only-two-2/</guid><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-f16ff.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABn70E8baFAf/EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMREiH/2gAIAQEAAQUCqq7gOPsVRwUBt9n/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGK/8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8BWf/EABsQAAIDAAMAAAAAAAAAAAAAAAABAhEhEDFB/9oACAEBAAY/AreIcGti/ONLOz//xAAdEAACAgEFAAAAAAAAAAAAAAABEQAhYTFBUYGR/9oACAEBAAE/IdeJKagUt4GJhWIcBtwNhFjSi7J//9oADAMBAAIAAwAAABCIL//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxCGH//EABcRAQADAAAAAAAAAAAAAAAAAAABEUH/2gAIAQIBAT8QnZb/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8QcNWbFS/YQJA2TqKYhavggsA1RQnRxNrt+Moe/Ik2Plkuf//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
-        title=&quot;&quot;
-        src=&quot;/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-dce19.jpg 200w,
-/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-c1413.jpg 400w,
-/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-78f2b.jpg 800w,
-/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-ab4c4.jpg 1200w,
-/static/photo-1451324119451-db0ac857463c-e7eccf623b741964e3b67cccaab27b9a-f16ff.jpg 1500w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur &lt;a href=&quot;/i-am-so-clever/&quot;&gt;adipiscing&lt;/a&gt; elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.&lt;/p&gt;
-&lt;h3&gt;Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.&lt;/h3&gt;
-&lt;p&gt;Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.&lt;/p&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. . Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
-&lt;h3&gt;Aenean bibendum iaculis mi, nec blandit lacus interdum vitae&lt;/h3&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
-&lt;h3&gt;Donec hendrerit laoreet risus eget adipiscing.&lt;/h3&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Two things are infinite the universe and human stupidity]]></title><description><![CDATA[Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/two-things-are-infinite/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/two-things-are-infinite/</guid><content:encoded>&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, &lt;a href=&quot;http://google.com&quot;&gt;adipiscing&lt;/a&gt; eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;a&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
-puts a&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Pellentesque &lt;code class=&quot;language-text&quot;&gt;sed&lt;/code&gt; sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
-&lt;p&gt;Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Bruno's blog]]></title><description><![CDATA[PersonalBlog is a GatsbyJS starter.]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 12:44:13 GMT</lastBuildDate><item><title><![CDATA[Python scope]]></title><description><![CDATA[本文主要介绍 Python 变量作用域 (Scope)。 1. 什么是 Scope 所谓作用域 (scope): 变量第一次赋值的位置决定了变量在代码中可见的范围，即变量能被使用的范围，这就是变量的作用域。  The place where you assign a name…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/python-scope/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/python-scope/</guid><content:encoded>&lt;p&gt;本文主要介绍 Python 变量作用域 (Scope)。&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;1. 什么是 Scope&lt;/h2&gt;
+&lt;p&gt;所谓作用域 (scope): 变量第一次赋值的位置决定了变量在代码中可见的范围，即变量能被使用的范围，这就是变量的作用域。 &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.&lt;/p&gt;
+&lt;p&gt;The place where you assign a name for the first time in your source code determines the namespace it will live in, and hence its scope of visibility.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.&lt;/p&gt;
-&lt;h3&gt;Cras semper consectetur elementum&lt;/h3&gt;
-&lt;p&gt;Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;
+&lt;p&gt;因为 Python 不存在前置变量声明，它只会在变量第一次赋值时，创建该变量，并将名称绑定到特定的 namespace 。这也说明，变量的作用域只取决于它在源代码中第一次赋值的位置，而不取决于其所在函数的调用位置。这种作用域称为 静态作用域或词法作用域 (&lt;em&gt;lexical scoping&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;Python 调用函数时，有遇到 3 种类型的变量: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果变量在函数内部第一次赋值，其类型默认为局部变量 (local variable)，只在该函数内部可见。赋值操作包括: &lt;code class=&quot;language-text&quot;&gt;=&lt;/code&gt; 操作，&lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; 导入 module, 子函数定义 &lt;code class=&quot;language-text&quot;&gt;def&lt;/code&gt;, 函数参数等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; 如果提前声明该变量为 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 或者 &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; ，则变量就成了全局变量 (global variable) 或者非局部变量 (nonlocal variable) , 赋值操作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果变量在 enclosing &lt;code class=&quot;language-text&quot;&gt;def&lt;/code&gt; (父函数内，但在子函数外) 定义，那么对于子函数来说，是非局部变量 (nonlocal variable)。对父函数，则是局部变量&lt;/p&gt;
+&lt;p&gt;注: 这种函数在 Java 中非常常见，称为匿名函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果变量定义在所有 &lt;code class=&quot;language-text&quot;&gt;def&lt;/code&gt; 的外部，那么它对于整个文件是全局的 (global)&lt;/p&gt;
+&lt;p&gt;注: 这里的&lt;strong&gt;全局&lt;/strong&gt;所指的范围仅仅是说变量所在的 module (a file is a module)。如果我们需要使用其他 module 的全局变量，则必须 &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; module, 然后使用 &lt;code class=&quot;language-text&quot;&gt;module.[varName]&lt;/code&gt; 格式即可&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;1.1 变量搜索原则: LEGB Rule&lt;/h3&gt;
+&lt;p&gt;Python 存在 4 种 scope: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;子函数 (function) 提供的局部作用域 (local scope)&lt;/li&gt;
+&lt;li&gt;父函数提供的 enclosing scope &lt;/li&gt;
+&lt;li&gt;模块 (module) 提供的全局作用域 (global scope)&lt;/li&gt;
+&lt;li&gt;Python built-in scope (比如 &lt;code class=&quot;language-text&quot;&gt;zip&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;list&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;str&lt;/code&gt; 等)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;函数内部&lt;strong&gt;引用&lt;/strong&gt;变量时 ，Python 按下面次序搜索变量: 局部范围 (Local -L)，包裹该函数的父函数范围 (enclosing - E)，全局范围 (Global - G)，最后是内建范围 (built-in B)。一旦找到，便不再继续搜索，直接使用该变量。否则，抛出异常&lt;/p&gt;
+&lt;p&gt;下图展示了四个范围:&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-f16ff.jpg&quot;
+    href=&quot;/static/python_scope-67c93263132507cfd62388be837e8537-e9886.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -229,19 +46,18 @@ puts a&lt;/code&gt;&lt;/pre&gt;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAHE42Q40x//xAAaEAACAgMAAAAAAAAAAAAAAAABAgMhBBEi/9oACAEBAAEFAkjYKVYqSN4twz8sxv8A/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAEDAQE/AcCL/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/ATV//8QAHhAAAgEDBQAAAAAAAAAAAAAAAAECEBEhEjEyQdH/2gAIAQEABj8C1S4kntY9M9YE1T//xAAdEAADAAEFAQAAAAAAAAAAAAAAARGBITFBYXHB/9oACAEBAAE/IWLQZZGInEjbk10G9x4E2lavwo8P/9oADAMBAAIAAwAAABCMP//EABYRAQEBAAAAAAAAAAAAAAAAAAEAMf/aAAgBAwEBPxBDEz//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/EFq0Tw//xAAcEAEAAgIDAQAAAAAAAAAAAAABESEAUTFBYaH/2gAIAQEAAT8QGgAZWUbDLSMAAyHDTE7zQHaWOKFVBe+0fcoAekfacanJkIJoWYz/2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 60.727969348659%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABcUlEQVQoz4WSC2+CMBSF+f+/bjokUVaQUiiVh0VEwUe2r13csmRzJ6XeW3t6z30E5/P54nG9Xndml6apEKJtmmEYDh6DxziOx+PRWnt54HQ6Bfy8P1AoFYZhFK6MMfuu61oeaezegRjzPCtVfF3G/Sbfbjd8mcnX5Wu82fS2J2DvQcDRI8vkM7Iuy1UYsqIoyvN8OAy8AnnyyLbZ7+T7/U4a0zyLN0FwxEcrp7/z+j8lbJ+TyY0MN+v14uUlTRJdalxqxTnx/4mMy2m8iZeLBWSV54lItmlKCm3byr9yhkyF2qY1lSk8lFKSEkkJk1ewaeQPMjWEP00zuzG7OH6L+RwES4gEj90bsdaVvzxd5gvEoGmQ09EOWlrXtWuP7ZkNa/u9tW4w9uzj58zUdePL17JTiwCdpdacMl5ErnRVo9zZdVUZpoKCExAU2JUpS+2WKnNVBNxI062UJEiaJR85Kg9u8y8B+/6ABFqFVFxnO139B/NOn78YUWooAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;unsplash.com&quot;
+        alt=&quot;python scope&quot;
         title=&quot;&quot;
-        src=&quot;/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-78f2b.jpg&quot;
-        srcset=&quot;/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-dce19.jpg 200w,
-/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-c1413.jpg 400w,
-/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-78f2b.jpg 800w,
-/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-ab4c4.jpg 1200w,
-/static/photo-1490474418585-ba9bad8fd0ea-69657d5d9f9e2a2aa0aa1c3e268ce4a1-f16ff.jpg 1500w&quot;
+        src=&quot;/static/python_scope-67c93263132507cfd62388be837e8537-48538.png&quot;
+        srcset=&quot;/static/python_scope-67c93263132507cfd62388be837e8537-bed0f.png 200w,
+/static/python_scope-67c93263132507cfd62388be837e8537-5fd34.png 400w,
+/static/python_scope-67c93263132507cfd62388be837e8537-48538.png 800w,
+/static/python_scope-67c93263132507cfd62388be837e8537-e9886.png 1044w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
     &lt;/span&gt;
@@ -249,4 +65,758 @@ puts a&lt;/code&gt;&lt;/pre&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;函数内部&lt;strong&gt;赋值&lt;/strong&gt;变量时，Python 默认只搜索局部变量范围，如果没有找到，则会直接创建一个局部变量。也就说，&lt;strong&gt;函数内部不能直接对全局变量赋值&lt;/strong&gt;。如果我们想在函数内部改变一个全局变量的值，则必须首先使用 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 语法声明该变量为全局变量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When &lt;em&gt;assign&lt;/em&gt; a name in a function (instead of just referring it in an expression), Python always creates or changes the name in the local scope, unless it’s declared to be global or nonlocal in that function. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;总结, 在函数中: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;变量&lt;strong&gt;引用&lt;/strong&gt;搜索则遵循 LEGB 原则，&lt;/li&gt;
+&lt;li&gt;变量&lt;strong&gt;赋值&lt;/strong&gt; (&lt;em&gt;assignment&lt;/em&gt;) 默认创建或修改局部变量。&lt;/li&gt;
+&lt;li&gt;声明为 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 或者 &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 的变量，则可以赋值对应名称的全局变量或者非局部变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注: 这里的变量只针对普通变量，对于对象属性变量 (qualified attribute name)，则有其他规则&lt;/p&gt;
+&lt;p&gt;注: 除了上面的 4 种 scope, 还有额外 3 种: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;temporary loop variables are local to the expression itself in all comprehension form: &lt;em&gt;generator&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;set&lt;/em&gt; and &lt;em&gt;dictionary&lt;/em&gt; (Python 3.x)。但有一个特殊情况，&lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; 循环不会将循环变量局限在 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; loop block 中，而是会传递到 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; 循环所在的 scope。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; i				&lt;span class=&quot;token comment&quot;&gt;# outside of the for loop scope&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;		&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;exception reference variables (such as variable &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; of  &lt;code class=&quot;language-text&quot;&gt;except E as X&lt;/code&gt;) are local to that &lt;code class=&quot;language-text&quot;&gt;except&lt;/code&gt; block (Python 3.x)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;local scopes (“L” level) in &lt;em&gt;class&lt;/em&gt; statements. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. global&lt;/h2&gt;
+&lt;p&gt;总结前面提到的知识: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全局变量是 module file 的顶层赋值变量&lt;/li&gt;
+&lt;li&gt;在函数中&lt;strong&gt;赋值&lt;/strong&gt;全局变量，必须使用 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 前置声明&lt;/li&gt;
+&lt;li&gt;在函数中&lt;strong&gt;引用&lt;/strong&gt;全局变量，不需要提前声明 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 或者 &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 声明本质是 &lt;em&gt;namespace declaration&lt;/em&gt;, 它允许函数内部直接修改全局变量&lt;/p&gt;
+&lt;p&gt;编程原则: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;尽量使用&lt;strong&gt;纯函数&lt;/strong&gt; (相同的输入必定产生相同的输出；计算过程不会产生副作用)。In general, functions should rely on arguments and return values instead of globals. &lt;/li&gt;
+&lt;li&gt;减少全局变量的使用&lt;/li&gt;
+&lt;li&gt;不要尝试跨文件的变量改变，但可以使用接口 (Interface) 改变变量，比如 getter, setter 函数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;全局变量的用途: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;多线程开发，作为共享变量&lt;/li&gt;
+&lt;li&gt;小型项目中，可以保存上下文状态信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;3. enclosing scope&lt;/h2&gt;
+&lt;p&gt;enclosing scope 也称 静态嵌套作用域 (statically nested scope) &lt;/p&gt;
+&lt;p&gt;在函数中: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;变量&lt;strong&gt;引用&lt;/strong&gt; (reference) 仍然遵循 LEGB 原则，但 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 前置声明会让变量搜索从全局作用域开始&lt;/li&gt;
+&lt;li&gt;变量&lt;strong&gt;赋值&lt;/strong&gt; (assignment) 默认是在当前作用域创建或修改变量。如果使用 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt; 前置声明，则会修改全局变量。如果使用 &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 前置声明，则会使用距离最近的父嵌套函数的变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3.1 factory functions: 闭包 closures&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;maker&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;N&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;X&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Make and return action&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; X &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt; N &lt;span class=&quot;token comment&quot;&gt;# action retains N from enclosing scope&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; action
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; f &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; make&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;		&lt;span class=&quot;token comment&quot;&gt;# Pass 2 to argument N&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; f
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;function maker&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;locals&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;action at &lt;span class=&quot;token number&quot;&gt;0x0000000002A4A158&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;			&lt;span class=&quot;token comment&quot;&gt;# Pass 3 to X, N remembers 2: 3 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; f&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;			&lt;span class=&quot;token comment&quot;&gt;# 4 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;闭包的用途: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;实现数据本地化存储 (enclosing scope)，避免全局访问&lt;/li&gt;
+&lt;li&gt;如果状态数据只是保持而无需改变，则相比类实现来说，更轻量化&lt;/li&gt;
+&lt;li&gt;如果需要改变状态数据，则可以在嵌套子函数中使用 &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 前置声明&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;记住: 能不用函数嵌套，就别用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Flat is generally better than nested. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;3.2 lambda 表达式&lt;/h3&gt;
+&lt;p&gt;由于 enclosing scopes lookup 机制的存在， lambda 表达式内部的变量可以在嵌套的父函数中寻找，不需要默认参数传递&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; 
+	action &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# x remembered from enclosing def&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; action 
+	
+f &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; func&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;f&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;						&lt;span class=&quot;token comment&quot;&gt;# prints 16, 4 ** 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;上面的 lambda 表达式中，在没有引入 enclosing scope 之前，必须写成如下形式，用于传入 nonlocal variable &lt;code class=&quot;language-text&quot;&gt;x&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;action &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;x&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;但有一个例外情况，我们必须得添加默认参数: &lt;/p&gt;
+&lt;p&gt;在 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; 循环中返回 lambda 表达式或者嵌套子函数，并且这些返回函数会引用循环索引。&lt;/p&gt;
+&lt;p&gt;这种情况下，所有子函数或者 lambda 表达式引用的 &lt;code class=&quot;language-text&quot;&gt;for&lt;/code&gt; 循环索引值都是循环的最后一个值。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;makeActions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		acts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Tries to remember each i&lt;/span&gt;
+			acts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# But all remember same last i!&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; acts
+		
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; makeActions&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;function makeActions&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;locals&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; at &lt;span class=&quot;token number&quot;&gt;0x0000000002A4A400&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# All are 4 ** 2, 4=value of last i&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# This should be 1 ** 2 (1)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# This should be 2 ** 2 (4)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Only this should be 4 ** 2 (16)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;可以看到，list &lt;code class=&quot;language-text&quot;&gt;acts&lt;/code&gt; 中的每个 &lt;code class=&quot;language-text&quot;&gt;lambda&lt;/code&gt; 表达式使用的变量 &lt;code class=&quot;language-text&quot;&gt;i&lt;/code&gt; 都是 4, 结果都是 &lt;code class=&quot;language-text&quot;&gt;4**2&lt;/code&gt; ，即 16。&lt;/p&gt;
+&lt;p&gt;改进如下: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;makeActions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		acts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Use defaults instead&lt;/span&gt;
+			acts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Remember current i&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; acts
+		
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; makeActions&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 		&lt;span class=&quot;token comment&quot;&gt;# 0 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 		&lt;span class=&quot;token comment&quot;&gt;# 1 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 		&lt;span class=&quot;token comment&quot;&gt;# 2 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; acts&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 		&lt;span class=&quot;token comment&quot;&gt;# 4 ** 2&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;16&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;3.3 nonlocal&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 的提出使得 &lt;strong&gt;writable state&lt;/strong&gt; 成为可能。因为函数中变量赋值默认是局部变量，&lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 前置声明则可以让嵌套子函数修改父函数的变量 (状态保持但可写)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tester&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;start&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; start &lt;span class=&quot;token comment&quot;&gt;# Each call gets its own state&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nested&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;nonlocal&lt;/span&gt; state &lt;span class=&quot;token comment&quot;&gt;# Remembers state in enclosing scope&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+			state &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Allowed to change it if nonlocal&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; nested
+	
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tester&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;spam&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Increments state on each call&lt;/span&gt;
+spam &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ham&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+ham &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;eggs&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+eggs &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;多次调用 &lt;code class=&quot;language-text&quot;&gt;tester&lt;/code&gt; 工厂函数 (闭包 closure) 会进行多个 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; 变量的拷贝，相互之间不会互相干扰。&lt;/p&gt;
+&lt;p&gt;每次返回的 &lt;code class=&quot;language-text&quot;&gt;nested&lt;/code&gt; 函数对象都会同时拷贝一次 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; object，并且在 enclosing function 外部是无法使用或获得 &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt; object 的。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; 实现了子函数状态信息保留以及不同上下文之间的隔离。实现了简单的状态保存，非常适合轻量级 (lightweight) 的上下文保存, 同时也没有将状态暴露给全局，并且使用全局变量会在不同上下文之间产生干扰，因为只有一个变量啊 !!! &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the &lt;code class=&quot;language-text&quot;&gt;nonlocal&lt;/code&gt; statements allows multiple copies of &lt;em&gt;changeable&lt;/em&gt; state to be retained in memory. It addresses simple state-retention  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;那还有没有其他的解决方案呢 ??&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;使用 class, attribute 可以存储状态信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 function attributes&lt;/p&gt;
+&lt;p&gt;下面例子中，我们使用 &lt;code class=&quot;language-text&quot;&gt;nested.state&lt;/code&gt; ，并且在 &lt;code class=&quot;language-text&quot;&gt;def nested&lt;/code&gt; 后初始化&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tester&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;start&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nested&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+			&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nested&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# nested is in enclosing scope&lt;/span&gt;
+			nested&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Change attr, not nested itself&lt;/span&gt;
+		nested&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; start &lt;span class=&quot;token comment&quot;&gt;# Initial state after func defined&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; nested
+		
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tester&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;spam&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# F is a &apos;nested&apos; with state attached&lt;/span&gt;
+spam &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ham&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+ham &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token comment&quot;&gt;# Can access state outside functions too&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; G &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tester&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# G has own state, doesn&apos;t overwrite F&apos;s&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; G&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;eggs&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+eggs &lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;ham&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+ham &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token comment&quot;&gt;# State is accessible and per-call&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; G&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state
+&lt;span class=&quot;token number&quot;&gt;43&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; F &lt;span class=&quot;token keyword&quot;&gt;is&lt;/span&gt; G &lt;span class=&quot;token comment&quot;&gt;# Different function objects&lt;/span&gt;
+&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;为什么可以这样做 ? &lt;/p&gt;
+&lt;p&gt;函数名称 &lt;code class=&quot;language-text&quot;&gt;nested&lt;/code&gt; 是 enclosing scope &lt;code class=&quot;language-text&quot;&gt;tester&lt;/code&gt; 的局部变量，因此在 &lt;code class=&quot;language-text&quot;&gt;tester&lt;/code&gt; 内部可以自由引用。同时 in-place change 不是赋值语句，因此当执行 &lt;code class=&quot;language-text&quot;&gt;nested.state += 1&lt;/code&gt; 时，它改变的是 &lt;code class=&quot;language-text&quot;&gt;nested&lt;/code&gt; 引用的 object 的一部分，而不是 &lt;code class=&quot;language-text&quot;&gt;nested&lt;/code&gt; 本身。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;function attribute: variables whose names are local to a function, but whose values are retained after a function exists. Attributes are related to objects instead of scopes. so its are accessible anywhere the function itself is, even from outside its code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 mutables 的 in-place change 特性 (强烈不推荐)&lt;/p&gt;
+&lt;p&gt;还记得在博客开头说过吧， mutable 的 in-place change 不是 assignment ，而是名字引用，因此我们会直接用 LEGB 规则进行名字搜索。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;tester&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;start&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;nested&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+		&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Leverage in-place mutable change&lt;/span&gt;
+		state&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Extra syntax, deep magic?&lt;/span&gt;
+	state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;start&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; nested&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[AI ML Learning Path]]></title><description><![CDATA[1. Python 入门篇 廖雪峰的 Python 教程   推荐看到 正则表达式就可以了，前面如果不懂，可以利用丰富的网上资源查找资料，不用只局限一篇博客 书籍:  Learning Python…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/AI-ML-Learning-Path/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/AI-ML-Learning-Path/</guid><content:encoded>&lt;h2&gt;1. Python 入门篇&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000&quot;&gt;廖雪峰的 Python 教程&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;推荐看到 正则表达式就可以了，前面如果不懂，可以利用丰富的网上资源查找资料，不用只局限一篇博客&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;书籍: &lt;a href=&quot;www.dsf.unica.it/~fiore/LearningPython.pdf&quot;&gt;Learning Python&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;这本书非常值得推荐，感觉写的很详细，但可能对初学者不太友好。&lt;/p&gt;
+&lt;p&gt;我在学了 Python 很久后才看到这本书的，感觉很多原先不懂的地方这里都解释得很清楚 &lt;/p&gt;
+&lt;p&gt;我的博客中关于 &lt;a href=&quot;http://brunoliu.com/category/python/&quot;&gt;Python 部分&lt;/a&gt; 大多数都是总结自这本书 &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Numpy, Scikit-learn, Matplotlib 学习: &lt;a href=&quot;https://www.scipy-lectures.org/&quot;&gt;Scipy Lecture Note&lt;/a&gt; (很遗憾缺少 Pandas 库)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Python 可视化: &lt;a href=&quot;https://python-graph-gallery.com/&quot;&gt;Python graph gallery&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注: 我的博客中讲解 seaborn 的部分来自这个网址&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如何寻找有用的 Python 库，不重复造轮子 .&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jobbole/awesome-python-cn&quot;&gt;awesome-python-cn&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这里强烈建议读完前两个，后面关于库的使用，可以在项目中学，后面在 Kaggle 篇会解释&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;2. Machine learning 入门篇&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Coursera 的课程 &lt;a href=&quot;https://www.coursera.org/learn/machine-learning/home/welcome&quot;&gt;Machine Learning&lt;/a&gt; 和 &lt;a href=&quot;https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome&quot;&gt;Deeplearning.ai&lt;/a&gt; (一共有 5 节课)，注意这两门课在 youtube 都有视频，但没有课后作业。我觉得这门课的精华之处就在课后作业，值得好好做一做。前者用 Matlab/Octave，后者用 Python Jupyter。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;还有台湾大学林宏毅教授的视频 : &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://speech.ee.ntu.edu.tw/~tlkagk/courses.html&quot;&gt;http://speech.ee.ntu.edu.tw/~tlkagk/courses.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(我还没有看，但感觉很不错，我也得抓紧看下)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.fast.ai/&quot;&gt;Fast.ai&lt;/a&gt; : 对新手入门很好，先跑例程，可以直接看到效果，但没有过多解释背后的数学原理，不然课程怎么叫 fast ai。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;李沐的 &lt;a href=&quot;https://zh.gluon.ai/index.html&quot;&gt;动手学深度学习&lt;/a&gt; : MXNet 框架&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注:&lt;/strong&gt; &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果对矩阵求导不熟悉，可以参见我的博客 ，请注意 vectorization 的思想非常重要&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果线性代数忘了，就算没有忘，也请多看看这个网站: &lt;a href=&quot;https://ccjou.wordpress.com/&quot;&gt;https://ccjou.wordpress.com/&lt;/a&gt; (可能需要梯子)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; 或者 MIT 的课程 : &lt;a href=&quot;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-1-the-geometry-of-linear-equations/&quot;&gt;Linear algebra&lt;/a&gt; 以及对应的教材，理解各种矩阵分解和四个子空间&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;如果对数学理论感兴趣，可以补充看这几个方面的书籍: &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt; 凸优化: &lt;a href=&quot;https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf&quot;&gt;Convex optimization&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; 实变函数和泛函分析: 有点啃不动，有人想学可以一起啊&lt;/p&gt;
+&lt;p&gt; 数值分析感觉也挺重要的，庆幸我在研究生的时候学过，梯度下降就在这门课讲过，以及范数等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果对传统的机器学习感兴趣，推荐 &lt;a href=&quot;http://scikit-learn.org/stable/index.html&quot;&gt;Scikit-learn&lt;/a&gt; 库。如果对算法的原理感兴趣，基本上上面这个库的 Tutorial 和 User Guide 都覆盖了，可以看下。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;入门后的书籍推荐: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bishop 的 &lt;a href=&quot;http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf&quot;&gt;Pattern Recognition and Machine Learning&lt;/a&gt;  (我正在努力阅读中 :cry: ) &lt;/li&gt;
+&lt;li&gt;后面可能还有 … &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;后续还有 GAN 对抗生成网络 推荐&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. Computer Vision 推荐&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;OpenCV 库  (图像处理库)&lt;/p&gt;
+&lt;p&gt;推荐书籍:  &lt;a href=&quot;http://www.bogotobogo.com/cplusplus/files/OReilly%20Learning%20OpenCV.pdf&quot;&gt;Learning OpenCV3&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;但还是建议 “在用中学”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;斯坦福大学课程: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://vision.stanford.edu/teaching/cs131_fall1718/syllabus.html&quot;&gt;CS131&lt;/a&gt; : introductory course for computer vision&lt;/li&gt;
+&lt;li&gt;CS231a: advanced computer vision&lt;/li&gt;
+&lt;li&gt;CS231n: deep learning and convolution neural networks &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4. Pytorch 学习&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://pytorch.org/tutorials/&quot;&gt;官网 Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;知乎一篇干货: &lt;a href=&quot;https://zhuanlan.zhihu.com/p/28475866&quot;&gt;PyTorch项目代码与资源列表 | 资源下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但这里大概率会有一个坑，等你们学会 Pytorch 就知道了，这里先不说&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. Kaggle 篇&lt;/h2&gt;
+&lt;p&gt;终于到了 Kaggle 篇，如果前面的 Numpy, Pandas 都没有学过，这里推荐两篇文章: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners/&quot;&gt;data science tutorial for beginner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/kanncaa1/machine-learning-tutorial-for-beginners&quot;&gt;Machine learning tutorial for beginner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在实操几个题目，就可以愉快地玩耍了&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/&quot;&gt;如何在 Kaggle 首战中进入前 10%&lt;/a&gt; 这篇文章对传统的结构化数据竞赛非常有帮助&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6. 我的想法&lt;/h2&gt;
+&lt;p&gt;我想在这个暑假创建一个网站，用于展示 神经网络的各种应用，可以和用户交互，比如用户在写字板写入数字，可以自动识别。比如 YoLo 实时物体识别。或者也可以动态展示神经网络的原理。所以在学 Django (一个 Python 的 Web 框架)，慢慢来吧，有兴趣的小伙伴可以加入哦。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[DarkNet CNN Source Code Analyse]]></title><description><![CDATA[在了解 全连接层反向传播的机理后，我在 Google 上找了一圈，都没有找到讲得很好的 CNN 反向传播的计算，本想通过研究 Pytorch 源码分析算法原理，发现 Pytorch 底层是调用 C 代码的，也就不了了之了。最近在学习 Darknet…]]></description><link>https://gatsby-starter-personal-blog.greglobinski.com/DarkNet-CNN-Source-Code-Analyse/</link><guid isPermaLink="false">https://gatsby-starter-personal-blog.greglobinski.com/DarkNet-CNN-Source-Code-Analyse/</guid><content:encoded>&lt;p&gt;在了解 全连接层反向传播的机理后，我在 Google 上找了一圈，都没有找到讲得很好的 CNN 反向传播的计算，本想通过研究 Pytorch 源码分析算法原理，发现 Pytorch 底层是调用 C 代码的，也就不了了之了。最近在学习 Darknet 源码时，终于搞懂了这部分的原理。&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2&gt;1. 前向传播&lt;/h2&gt;
+&lt;p&gt;这里要先说明一点，这个地方对应学过数字信号处理的同学来说，还是非常坑的。&lt;/p&gt;
+&lt;p&gt;数字信号处理中，实际的卷积操作如下: &lt;/p&gt;
+$$
+(f*h)[m,n]=\sum_{i=-\infty}^\infty\sum_{j=-\infty}^\infty f[i,j]\cdot h[m-i,n-j]
+$$
+&lt;p&gt;而深度学习的卷积操作如下: &lt;/p&gt;
+$$
+(f*h)[m,n]=\sum_{i=-\infty}^\infty\sum_{j=-\infty}^\infty f[i,j]\cdot h[i-m,j-n]
+$$
+&lt;p&gt;也就是说，深度学习中的卷积操作实际上是&lt;strong&gt;相关操作&lt;/strong&gt; (correlation)&lt;/p&gt;
+&lt;p&gt;在数字信号处理中，一维卷积需要把信号序列 (一般是时间序列) 绕原点翻转，二维卷积则需要把信号序列 (一般是图像序列) 绕中心点旋转 $180^{\circ}$ &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;convolution is a filtering operation. correlation compared the similarity of two sets of data. Correlation is a measure of relatedness of two signals.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但其实，在深度学习中，卷积和相关可以理解为是相同的。&lt;/p&gt;
+&lt;p&gt;因为我们学习的就是卷积核权重，即卷积核未知，每次反向传播都会自动更新使得误差最小。而传统的图像处理采用已知的卷积核，如果不做翻转处理，结果完全不一样。当然，卷积核绕中心 $180^{\circ}$ 对称的话，两种处理结果也是相同的。&lt;/p&gt;
+&lt;p&gt;感兴趣的还可以看下 我的这篇博客 &lt;a href=&quot;http://brunoliu.com/2018/06/14/thinking-of-2d-convolution/&quot;&gt;Thinking of 2D convolution&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.1 输出尺寸&lt;/h3&gt;
+&lt;p&gt;大多数博客只提到 CNN 算法的前向传播原理。其实如果搞过传统图像处理的，应该都知道，卷积层的本质就是滤波，包括高通滤波用于边缘检测，低通滤波 (如高斯滤波器) 用于图片平滑。感兴趣的可以去找相关书籍看看。&lt;/p&gt;
+&lt;p&gt;前向传播一个稍微麻烦的地方是 如果根据 input height, input width, kernel size, padding, stride 计算输出 output height , output width &lt;/p&gt;
+&lt;p&gt;公式如下: &lt;/p&gt;
+$$
+\text {output height} = \Big \lfloor \cfrac {\text {input height} + 2 \times \text {padding} - \text {kernel size}} {\text {stride}} \Big \rfloor + 1 
+$$
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;output width&lt;/code&gt; 计算是类似的。&lt;/p&gt;
+&lt;p&gt;参考论文: &lt;a href=&quot;https://arxiv.org/abs/1603.07285&quot;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对应的 GitHub repo: &lt;a href=&quot;https://github.com/vdumoulin/conv_arithmetic&quot;&gt;conv_arithmetic&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;1.2 卷积实现&lt;/h3&gt;
+&lt;p&gt;这一小节参考的博客: &lt;a href=&quot;https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/&quot;&gt;Why GEMM is at the heart of deep learning&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;本博客着重讲的是第二点，如果实现二维卷积计算 ? &lt;/p&gt;
+&lt;p&gt;传统的数字信号处理中，对于两个长度相当的数据，我们通常用傅里叶变换间接求两个信号的卷积。&lt;/p&gt;
+&lt;p&gt;但由于深度学习中，常见的卷积核大小为 $3 \times 3$, $5 \times 5$ 等，采用傅里叶变换得不偿失，我们通常利用卷积定义直接计算。&lt;/p&gt;
+&lt;p&gt;由此引入本文的核心: &lt;strong&gt;GEMM&lt;/strong&gt; — GEneral Matrix to Matrix Multiplication&lt;/p&gt;
+&lt;p&gt;它是 BLAS (Basic Linear Algebra Subprograms) library 的一部分。&lt;/p&gt;
+&lt;p&gt;GELL 听上去很高大上，是不是 ?&lt;/p&gt;
+&lt;p&gt;其实说白了就是 &lt;strong&gt;矩阵乘法&lt;/strong&gt; 的计算实现。&lt;/p&gt;
+&lt;p&gt;矩阵乘法在深度学习中最直观的使用莫过于全连接层了，输入神经元和权重矩阵进行矩阵乘法，再和偏置矩阵相加，得到输出神经元的值。&lt;/p&gt;
+&lt;p&gt;言归正传，回到 CNN 实现&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/kernelview-bd0283cc68eb34bae246e8d28931361b-2cbed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 768px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50.390625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAABe0lEQVQoz22RTU/CQBBA+6P9C3pCo4mIATSBaKIhHjDh7MVgYvAgggItpYVd2tLS0g8srd0dh6KVRCYvk91m3u5sR+CcA4C7cEbykJLJUBKnhMBvxHEchuGm5n8IbUJl3ZwY1mhqqLopUx0hpo1rcSj3ez1RFPGI3fKVOj5WJle2V527lblbtT3MFWuB21N53DNmWPSVJCuMMFyzWkVRhO0wxoSapufsxQVAkfMi5l9KAPk4FoMlyp7vjwmdGuZIUVRVwSRJUhAEwi3VcpZ9yaAUs9IXzygnkF+uRD/YdGiOB7NBa/DR6XTfdU37aftH5rB2EsgoM8h/RpmsPl7LN3tK4/DlualOCKU0lafakeWgXE5vy7hgcLYlO2qbNva9h9zbS7Pd6TqOs5ZrhB6Yc3xkIeEFBhnnHE7CqJ/KLB3VSOq/tp4MQ8f1ZniCtQzqml53/frC2+be9e8smwRrGQs5Y93ue68/wJ/9NypIzwHGdrMVYfiJE9r+8g0dCCBSGZDZNwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;kernelview&quot;
+        title=&quot;&quot;
+        src=&quot;/static/kernelview-bd0283cc68eb34bae246e8d28931361b-2cbed.png&quot;
+        srcset=&quot;/static/kernelview-bd0283cc68eb34bae246e8d28931361b-d8578.png 200w,
+/static/kernelview-bd0283cc68eb34bae246e8d28931361b-a4478.png 400w,
+/static/kernelview-bd0283cc68eb34bae246e8d28931361b-2cbed.png 768w&quot;
+        sizes=&quot;(max-width: 768px) 100vw, 768px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;CNN 层输入数据尺寸为 batch_size $\times$ depth (channel) $\times$ input height $\times$ input width，这是一个4维张量，在 Pytorch 中输入张量的顺序也是 batch $\times$ depth $\times$ height $\times$ width &lt;/p&gt;
+&lt;p&gt;如果考虑对 batch 循环处理，那么每次的输入数据尺寸为 depth(channel) $\times$ input height $\times$ input width &lt;/p&gt;
+&lt;p&gt;卷积核的大小则为  output depth $\times$ depth $\times$ kernel size $\times$ kernel size &lt;/p&gt;
+&lt;p&gt;注: 这里和别的博客说法不同，一般都将单个卷积核视为二维的，但其实想一下，考虑沿着深度方向 (每个输入通道) 都存在相应的不同卷积核，最后叠加。那么我们直接将沿着深度方向的所有卷积核视为一个卷积核，进行 3 维的相乘累加操作，不是更方便吗 ? &lt;/p&gt;
+&lt;p&gt;下图展示了输入数据尺寸为 $1 \times 2 \times 5 \times 5$ (batch:1, depth:2, height: 5, width: 5)，卷积核尺寸为 $3 \times 2 \times 3 \times 3$ (output depth: 3, input depth: 2, kernel size: 3 )，输出数据尺寸为 $1 \times 3 \times 3 \times 3$ &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/conv_sum-d38cce429f3e6a048835a85742b45e4a-3f951.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 468px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAIAAAC+dZmEAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/ElEQVQ4y41UyWsTURzOQaSCC3gRERRBkHrViyf/AM+epAcpokIREbFbWu0iQkUsaEvrXiJq06Y1LdbUtKmmi91NKralS+qSNrFJJpNZ38ybN/HNvGQyTYL1HYaZ3/y+3/p9z5LMd1RVxU+K5Z6Pf3k44g0nEobRfCx5wUj3szrf7au17qmzjq4F8KeC0PZgjEPaI1lkayuoKj1x7+5yOGxE3D4z8erz+251OT76/Xlrzgar+sEvsizH43FFkvhEQhIEOpFQFOVfYAJDCDEMQ9M08aZoGlcLIcSxOI4jPkYVFnOdvCBgJwCAETGOwek5Caa/6pbMqsonGI5ls3rjGMZswQNnGUZg2EzmTYa96Gi/4mgP0zSpigx25vfP829ttW6XAqEx7flQqOiNrfxDrwCABl6NRApqKvbfqV7c2CBOZKWOOZ+l4vqppgcykPAn1I3uhQVL1c3jjQ00x2lgRhSbR7wtI16aF8wzD0Qj9z0D9q+zpG2SORinGj95Xk1PSRCmepYlCQhC7jLE9ITNB/C8qodLgYEsi5KUSxXcmLx1wykjVDJgzAoAxNzMAk6SkxnvDBmZcTPhaDwUodBW6ssQBv9EqPRiyIFIWd+MRmlthRp4YGKlsNp1usETCMdJLKQna+r1HbX2n2sdhbKkL1mz2tzfjlldZx8Ns7yggR93TO4o7jxS1rcSonSGplh4tXHQUtx9psEDZWCAbz/1Wi50nawfZAjYNx+sezbU5vKRTaY3lXSPLdW/+Px+fDmlU906PB2oeeLpGVtSk2qa27qCVFPPBM8yWBhINRl5jlEgyNATpWUYi8WgzkRjwjyb4TZ+wcIQBDHVWpaesQwpihJF7TcrAOfsj86J1Y6pNf+vqCZPipJ0LmRL0qzqWAyPDbrHlndfth8oc+0s6bn2ehKJrAikrCslzzWkaPIH3e65wzechXWeg+X9lV2zmv1/7jAiKefA972X7IdK+3eV9JTaZ4xVbQNGupN/PljZ4ql9OVzROjSxuJ739vwLqYZktpd71IcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;conv sum&quot;
+        title=&quot;&quot;
+        src=&quot;/static/conv_sum-d38cce429f3e6a048835a85742b45e4a-3f951.png&quot;
+        srcset=&quot;/static/conv_sum-d38cce429f3e6a048835a85742b45e4a-96318.png 200w,
+/static/conv_sum-d38cce429f3e6a048835a85742b45e4a-dc6d3.png 400w,
+/static/conv_sum-d38cce429f3e6a048835a85742b45e4a-3f951.png 468w&quot;
+        sizes=&quot;(max-width: 468px) 100vw, 468px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;每次卷积核的运算： 相乘并累加&lt;/p&gt;
+&lt;p&gt;矩阵乘法 $C = AB$ 的单次运算: $A$ 的行向量与 $B$ 的列向量相乘并累加&lt;/p&gt;
+&lt;p&gt;不知道你有没有看出来两者的联系 ？&lt;/p&gt;
+&lt;p&gt;是的，基本操作都是相乘并累加。&lt;/p&gt;
+&lt;p&gt;所有，有的人就想到了，将卷积层的计算也用矩阵乘法实现: &lt;/p&gt;
+&lt;p&gt;$A$ 的每一行大小为 depth $\times$ kernel size $\times$ kernel size ，$B$ 的每一列也是相同大小，矩阵相乘的基本运算对应的就是单次卷积核相乘累加操作。&lt;/p&gt;
+&lt;p&gt;也就是说，我们需要将 CNN 层的输入数据重新排列，根据它可以组成矩阵 $A$ 的每一行 — 矩阵 $A$ 每一行的数据就是按步长移动卷积核后，其对应位置上的原始输入数据。&lt;/p&gt;
+&lt;p&gt;如下图所示，将 4维的输入张量数据转为 2维矩阵 $A$ ，通常称为 im2col, 表示 image-to-column&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/im2col_corrected-63eafbfa9662eac92b025bfb1337e5f2-2cbed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 768px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.833333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAABYlAAAWJQFJUiTwAAABw0lEQVQoz32R7W+aUBSH+f//g2ZxWdXWIo3V+lIVRAQBqYJcBygvwzl1vgJeFY2J6K5tto+7eT7cnOQ55/xysOv1Gl1uTKa/LduZTGf9gQm3O1S/XC7X/z7M0tpzSxmaPRc07e+SKTf6Cq+rrYUlb5bTfzpqdD5HiOiD2ye6YIpYFIp3ndKdyqY65RigYsNu3uSSuoA779kdDD7loW82Vi/N5WveSNKTDO+/tscMJrWqGnMP2AeFS+uNuEIn3E5G5fC+iP/oFjZ/5cFafYNfqV0yP/9S9r+RYZwZ57CuVNZFYii/ACk7Anmt+Wj3ygMxrbdzTq+yWMzCQ3g+RZbfI7cJZo8zIV7fP9FhipsWMaFV6XMJU3qWm8SoTaiNpCtnAJ82ePwnKNmOafSNbbBzAo3cJW5m+ITk+uFDVoUCmuNKhCYQv5SczsRdtTRopkwp44CKH3iH4wGtbXm9SnBPw1QNPiKo7QM7zmN1XeakrDGgKY21jSoLSN2gJJ0WtZpjkHDjf2Y2PfAGYygzmo/2r+5R5iwGT6fabE56PhlAarkmfVhbrigvIL2gPp/vj0d0JiSPfJtb5MRVSVgVEfy60JmwfwBsmcWHVL5fVAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;im2col corrected&quot;
+        title=&quot;&quot;
+        src=&quot;/static/im2col_corrected-63eafbfa9662eac92b025bfb1337e5f2-2cbed.png&quot;
+        srcset=&quot;/static/im2col_corrected-63eafbfa9662eac92b025bfb1337e5f2-d8578.png 200w,
+/static/im2col_corrected-63eafbfa9662eac92b025bfb1337e5f2-a4478.png 400w,
+/static/im2col_corrected-63eafbfa9662eac92b025bfb1337e5f2-2cbed.png 768w&quot;
+        sizes=&quot;(max-width: 768px) 100vw, 768px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;有的人可能会说，在步长 stride 比较小，kernel 比较大的情况下，上图中不同 patch 之间必然会相互覆盖 (overlap)，也就是说生成的 2 维矩阵 $A$ 会有大量的重复数据，生成这样的矩阵既浪费内存，又浪费时间，效率会高吗 ? &lt;/p&gt;
+&lt;p&gt;但是，请相信，和后面的矩阵乘法的高效比起来，这一步浪费的时间是有价值的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The benefits from the very regular patterns of memory access outweigh the wasteful storage costs. The paper from Nvidia &lt;a href=&quot;https://arxiv.org/pdf/1410.0759.pdf&quot;&gt;cuDNN: efficient primitives for Deep Learning&lt;/a&gt; describe why they ended up with a modified version of GEMM. There are a lot of advantages to being able to batch up a lot of input images against the same kernels at once.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;根据前面的分析：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$A$ 的行数为 patch 的数目，即  &lt;code class=&quot;language-text&quot;&gt;batch size * output height * output width&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;$B$ 的列数为卷积核的数目，即 &lt;code class=&quot;language-text&quot;&gt;output depth&lt;/code&gt; &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;于是输出的 2 维矩阵大小为:  &lt;code class=&quot;language-text&quot;&gt;batch size * output height * output width&lt;/code&gt;  $\times$ &lt;code class=&quot;language-text&quot;&gt;output depth&lt;/code&gt; ，在下一层看来，它又是一个新的 4 维矩阵。&lt;/p&gt;
+&lt;p&gt;如下图所示: &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/im2colmult_corrected1-fdef98e61d012beb0d354104f6753c94-2cbed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 768px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60.15625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAABYlAAAWJQFJUiTwAAACCUlEQVQoz22S22+aYBjG/W93vUO6NLV4tWQX7Xax6yVdFXWXS5atii5OBZzNUgWiKKVomBxETh/HgsI+dHTLtjdPngsefnl4yVtI0xQAwLKsIAgURdE0bVsWfJgkSbofx3FEUZQkCfpyuZAlOY7jQ1TILEld4AZeaOqW5/rbeJv+MUEQKIqiqqqmaaL4A3qcv1BwXDBdMKImzMXpaPZ9ueYFhWO4ked5MI6iCPYkv2aXfdBuF0X3223GFxR99Xl9gVnlCv26zr7BzDIGyh+Et6qqwFiYDOTeS5U43wxeqfiZRp4r/TOt/0LjuhmsmjJmoG2nillo0yy3QbXtoE2lyvO38S5dzYiIPArI43hY9AnoJz5xEhFP9dlVcoC/2LWOX+94ufxaa11nGNpxw8UElxqPPRK5H5Zc4nTvpZB4rs+bGbw25aZeaQG0ZedyKldShePmsPkG/0i/f+TixT0GHXEJJCSO9HljD1vK380BbK7NZizcajnpq9gTL+tE/gNrloLpaLaqnQugmFyjqDGEZe5bSB775Gl0jfhkMRoi2QpkDsOdG9Y7zLvE3Fz+5Sf54u6OPzRbX48cAvEHJdAvBtBxxOk+09hG9reBZ9+o/ZHWe9B407sWO4ZpwHglLngGn4+7PEPcMjhH9XiGXE4Ha2mRX9juHyW/Lwzew8awDBM4XqgbtmmBh/AnHxBnXDuuy+IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;im2colmult corrected1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/im2colmult_corrected1-fdef98e61d012beb0d354104f6753c94-2cbed.png&quot;
+        srcset=&quot;/static/im2colmult_corrected1-fdef98e61d012beb0d354104f6753c94-d8578.png 200w,
+/static/im2colmult_corrected1-fdef98e61d012beb0d354104f6753c94-a4478.png 400w,
+/static/im2colmult_corrected1-fdef98e61d012beb0d354104f6753c94-2cbed.png 768w&quot;
+        sizes=&quot;(max-width: 768px) 100vw, 768px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;1.3 利用 numpy 验证&lt;/h3&gt;
+&lt;p&gt;我们通过 numpy 验证两种方式计算卷积，哪一种更高效。&lt;/p&gt;
+&lt;p&gt;背景: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;一张灰度图片，大小为 $332 \times 300$, batch_size = 1， input depth = 1，因此输入数据是二维矩阵； &lt;/p&gt;
+&lt;p&gt;通过 python skimage 库读取图片&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; skimage &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; io 
+io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;imread&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;dog.jpg&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dog-085939e2d2f627a80f7608283c0b7574-fc7ff.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 332px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 90.36144578313254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABtZExLDTnCIP/xAAaEAACAwEBAAAAAAAAAAAAAAABAwACERIx/9oACAEBAAEFAlrrhCDGL5vgCqW6tux0X7P/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAQAhIhMZH/2gAIAQEABj8CeXkShHcZmqGgHFC//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSGxQf/aAAgBAQABPyFxXWqQzC8RlAND7GqOrdR3Q8mujEJWeRPFhk//2gAMAwEAAgADAAAAEMPHAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExUYGR0eHw/9oACAEBAAE/EECoAWne1hcW8ha3V7gE7MAr5gDUxcHmXmbiQRnvGqbW40ALRUdI0dL6GKxP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;dog&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dog-085939e2d2f627a80f7608283c0b7574-fc7ff.jpg&quot;
+        srcset=&quot;/static/dog-085939e2d2f627a80f7608283c0b7574-fbbac.jpg 200w,
+/static/dog-085939e2d2f627a80f7608283c0b7574-fc7ff.jpg 332w&quot;
+        sizes=&quot;(max-width: 332px) 100vw, 332px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;卷积核大小为 $3 \times 3$ ，ouput depth = 1，padding = 1，stride = 1&lt;/p&gt;
+&lt;p&gt;note: 其实这个卷积核是边缘检测算子&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np
+kernel &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输出为二维矩阵，不考虑 depth 和 batch size，大小和输入数据相同&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;首先我们实现 &lt;code class=&quot;language-text&quot;&gt;zero_pad&lt;/code&gt; 函数实现 边缘补 0&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;zero_pad&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot; Zero-pad an image.
+    Args:
+        image: numpy array of shape (H, W)
+        pad_width: width of the zero padding (left and right padding)
+        pad_height: height of the zero padding (bottom and top padding)
+    Returns:
+        out: numpy array of shape (H+2*pad_height, W+2*pad_width)
+    &quot;&quot;&quot;&lt;/span&gt;
+    H&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; W &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;
+
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;H&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;pad_height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; W&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;pad_width&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    out&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;pad_height&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;pad_height&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;H&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;pad_width&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;W&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; out&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;方法一:&lt;/strong&gt; 通过 卷积定义计算，我们需要使用两个 for 循环&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;conv_fast&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot; An efficient implementation of convolution filter.
+    Args:
+        image: numpy array of shape (Hi, Wi)
+        kernel: numpy array of shape (Hk, Wk)
+
+    Returns:
+        out: numpy array of shape (Hi, Wi)
+    &quot;&quot;&quot;&lt;/span&gt;
+    Hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wi &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape
+    Hk&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wk &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    pad_height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hk&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+    pad_width &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Wk&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+    
+    image_padding &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; zero_pad&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 两个 for 循环，按 步长为 1 逐点计算&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; hi &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; wi &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Wi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            out&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; wi&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image_padding&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hi&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;hi&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;Hk&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; wi&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;wi&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;Wk&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; out&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;方法二:&lt;/strong&gt; GEMM，矩阵相乘计算&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;conv_faster&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token triple-quoted-string string&quot;&gt;&quot;&quot;&quot;
+    Args:
+        image: numpy array of shape (Hi, Wi)
+        kernel: numpy array of shape (Hk, Wk)
+
+    Returns:
+        out: numpy array of shape (Hi, Wi)
+    &quot;&quot;&quot;&lt;/span&gt;
+    Hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wi &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape
+    Hk&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wk &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    pad_height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hk&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+    pad_width &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Wk&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+    
+    image_padding &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; zero_pad&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pad_width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    
+    gemm_input &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;zeros&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;Wi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Hk&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;Wk&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 输入数据重排，得到我们需要的矩阵&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; hi &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; wi &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Wi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            gemm_input&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hi&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;Wi&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;wi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image_padding&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;hi&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;hi&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;Hk&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; wi&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;wi&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;Wk&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            
+    &lt;span class=&quot;token comment&quot;&gt;# 一次矩阵乘法计算，直接得到结果&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# out shape: (Hi*Wi, 1)&lt;/span&gt;
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;matmul&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;gemm_input&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# 整理矩阵形状, out shape: (Hi, Wi)&lt;/span&gt;
+    out &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;reshape&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Hi&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Wi&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; out&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;最终结果: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;
+      &lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; matplotlib&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pyplot &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; plt
+
+t0 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+out_fast &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; conv_fast&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;img&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+t1 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+out_faster &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; conv_faster&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;img&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; kernel&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+t2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; time&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Compare the running time of the two implementations&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;conv_fast: took %f seconds.&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;t1 &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; t0&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;conv_faster: took %f seconds.&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;t2 &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; t1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Plot conv_nested output&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;subplot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;imshow&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;out_fast&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;conv_fast&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;axis&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;off&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Plot conv_fast output&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;subplot&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;imshow&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;out_faster&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;conv_faster&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+plt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;axis&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;off&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Make sure that the two outputs are the same&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;out_fast &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; out_faster&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1e&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Different outputs! Check your implementation.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;结果如下: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;conv_fast: took 0.563950 seconds.
+conv_faster: took 0.221714 seconds.&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;使用 GEMM 算法快了 50%，是不是很有效 !&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/conv_output-0e41c7abfd372c6cf1591b57da07dbcc-3afee.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 601px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.92346089850249%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABo0lEQVQoz2WRy0pCURiFTw3sRZpHo2iWECJC0ShEhx0RIUG83+8gZYg48Al8hJAigiY9gYNAGvcK4fFc+tZBS0jY7L3X/s761/9rTCaTvXq9floul88rlUowmUxexOPxaDqdjqCfoYfz+fyhwY/7MUwILZhIJC5jsVjUNM2rDRcqFApHxnQ6DSB8NhoNr1qtepz9HcArFotOt9v1AB82hq+tVkvvbq1W2+XcZrOp/ckgYQCz5QZ0SOAC+atUKlkqlMvlhjLk/KICcDaGvxzLljnc3BiNRgHMlqqgB0zcrSmJLBXKZDL3MoTxDWHWO2bi1uoMbm7MZjM/oZIAOmpBZ+bmkcLqdDpeNpsdbg1VgIIq7CkE4xBny9BPKEMelpsZOJoPDy4futz/GeqOvlbL4tDU0Z/heDwOtNvtDwlUs9Q2H9hoSvGtRIB3MsTsGV3pV1uOd5vzSn8S+qMSHjCXL4EyVVKde72eWvEGg4HAiQzR3vv9vq/vchqRdrg3Y7FY7PNwTboklUzim9oxN0l4w7oFPJEhhSOkSkkXpyUOXlwKj/APlHJ3/u12OaIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;conv output&quot;
+        title=&quot;&quot;
+        src=&quot;/static/conv_output-0e41c7abfd372c6cf1591b57da07dbcc-3afee.png&quot;
+        srcset=&quot;/static/conv_output-0e41c7abfd372c6cf1591b57da07dbcc-ae8c5.png 200w,
+/static/conv_output-0e41c7abfd372c6cf1591b57da07dbcc-d70b4.png 400w,
+/static/conv_output-0e41c7abfd372c6cf1591b57da07dbcc-3afee.png 601w&quot;
+        sizes=&quot;(max-width: 601px) 100vw, 601px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;1.4 Darknet 实现&lt;/h3&gt;
+&lt;p&gt;在 &lt;code class=&quot;language-text&quot;&gt;convolutional_layer.c&lt;/code&gt; 中，实现了 &lt;code class=&quot;language-text&quot;&gt;forward_convolutional_layer&lt;/code&gt; 函数，里面主要使用了两个函数: &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;im2col_cpu&lt;/code&gt; : 实现重排，考虑 padding, stride, kernel size 等参数&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;gemm&lt;/code&gt; : 实现矩阵乘法 $C = \alpha * AB + \beta * C$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注意: &lt;code class=&quot;language-text&quot;&gt;gemm&lt;/code&gt; 支持 A, B 转置，因此具体实现有 4 个对应的函数&lt;/p&gt;
+&lt;p&gt;这两个函数分别在 &lt;code class=&quot;language-text&quot;&gt;im2col.c&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;gemm.c&lt;/code&gt; 实现&lt;/p&gt;
+&lt;h2&gt;2. 反向传播&lt;/h2&gt;
+&lt;p&gt;说白了，我们要获得 3 个值，该层的 &lt;code class=&quot;language-text&quot;&gt;weight_updates&lt;/code&gt;  和 &lt;code class=&quot;language-text&quot;&gt;bias_updates&lt;/code&gt; ，以及更新前一层的 &lt;code class=&quot;language-text&quot;&gt;delta&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;如果从 GEMM 的角度考虑，得到 &lt;code class=&quot;language-text&quot;&gt;weight_updates&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;bias_updates&lt;/code&gt; 就很容易，因为它就是矩阵相乘的偏导，我们只要把前一层的 &lt;code class=&quot;language-text&quot;&gt;ouput&lt;/code&gt; 重排一下重新得到上面的矩阵 $A$ ，然后和全连接层类似。&lt;/p&gt;
+&lt;p&gt;至于 前一层的 &lt;code class=&quot;language-text&quot;&gt;delta&lt;/code&gt; ，我们在计算矩阵偏导后，还需要多一步，逆重排，在 Darknet 中通过 &lt;code class=&quot;language-text&quot;&gt;col2im_cpu&lt;/code&gt; 实现，注意这一步基本是叠加元素叠加实现的。感觉具体细节比较麻烦，主要是如何寻找索引，详细请看 &lt;code class=&quot;language-text&quot;&gt;col2im_cpu.c&lt;/code&gt; 文件&lt;/p&gt;</content:encoded></item></channel></rss>

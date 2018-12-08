@@ -16,6 +16,9 @@
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FS-&amp;-FFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/linear-time-invariant-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FT-&amp;-Laplace-Transform-&amp;-Z-Transform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FT-DTFT-DTFS-&amp;-DFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/polyphase-filter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/decimation-&amp;-interpolation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---back-propagation-based-on-matrix-derivative": [
-      "path---back-propagation-based-on-matrix-derivative-39c759940eb44fb0b68c.js",
-      "path---back-propagation-based-on-matrix-derivative-39c759940eb44fb0b68c.js.map"
+      "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js",
+      "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js.map"
     ],
     "path---ubuntu-16-04-cuda-pytorch-inde": [
       "path---ubuntu-16-04-cuda-pytorch-inde-96dd236a987414821078.js",
@@ -17,16 +17,16 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----623608e65f1775937e2c.js",
-      "path----623608e65f1775937e2c.js.map"
+      "path----42b6f88096ed846992f3.js",
+      "path----42b6f88096ed846992f3.js.map"
     ],
     "path---python-scope": [
       "path---python-scope-33d56b83f932eba98dc0.js",
       "path---python-scope-33d56b83f932eba98dc0.js.map"
     ],
     "path---ai-ml-learning-path": [
-      "path---ai-ml-learning-path-c476fd9d1d22cd8da813.js",
-      "path---ai-ml-learning-path-c476fd9d1d22cd8da813.js.map"
+      "path---ai-ml-learning-path-7e1a2613a37efa94e053.js",
+      "path---ai-ml-learning-path-7e1a2613a37efa94e053.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-f48643e2bf24381f2f16.js",
@@ -41,12 +41,20 @@
       "path---cheatsheets-2a0da7f023f7c6357e2c.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-931e02529c98350736bc.js",
-      "component---src-layouts-index-js-931e02529c98350736bc.js.map"
+      "component---src-layouts-index-js-4d1d666efb4250030594.js",
+      "component---src-layouts-index-js-4d1d666efb4250030594.js.map"
     ],
     "path---a-primary-neural-network-framwork-by-python": [
-      "path---a-primary-neural-network-framwork-by-python-940e7a6e178e67d3d214.js",
-      "path---a-primary-neural-network-framwork-by-python-940e7a6e178e67d3d214.js.map"
+      "path---a-primary-neural-network-framwork-by-python-3faed886101ab13c1586.js",
+      "path---a-primary-neural-network-framwork-by-python-3faed886101ab13c1586.js.map"
+    ],
+    "path---1-d-convolution": [
+      "path---1-d-convolution-4671fd5aa082c6344f58.js",
+      "path---1-d-convolution-4671fd5aa082c6344f58.js.map"
+    ],
+    "path---matrix-derivative": [
+      "path---matrix-derivative-ce7446122a0dc767dac8.js",
+      "path---matrix-derivative-ce7446122a0dc767dac8.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -79,9 +87,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-cf0599472a031132ca3a.js",
+      "app-d7466789a53caf383972.js",
       "build-js-styles.css",
-      "app-cf0599472a031132ca3a.js.map",
+      "app-d7466789a53caf383972.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -99,6 +107,10 @@
     "path---about": [
       "path---about-e615814945a5d53f62fa.js",
       "path---about-e615814945a5d53f62fa.js.map"
+    ],
+    "path---thinking-of-2-d-convolution": [
+      "path---thinking-of-2-d-convolution-9b4d45610fb08ce7afab.js",
+      "path---thinking-of-2-d-convolution-9b4d45610fb08ce7afab.js.map"
     ]
   }
 }

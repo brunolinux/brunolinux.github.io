@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/AI-ML-Learning-Path/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Ubuntu-16.04-cuda-+-pytorch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Thinking-of-2D-convolution/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/1D-convolution/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FT-&amp;-Laplace-Transform-&amp;-Z-Transform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/linear-time-invariant-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/polyphase-filter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/spatial-frequency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Back-propagation-based-on-matrix-derivative/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/DarkNet-CNN-Analyse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/a-primary-neural-network-framwork-by-python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/python-scope/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FS-&amp;-FFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/FT-DTFT-DTFS-&amp;-DFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/matrix-derivative/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/decimation-&amp;-interpolation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/matrix-derivative/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/2D-FFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy-concatenate,-stack,-split,-insert-&amp;-delete/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy-dimension-operation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/DarkNet-Framework-Introduction/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/cheatsheets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/2D-FFT/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/spatial-frequency/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Ubuntu-16.04-cuda-+-pytorch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Thinking-of-2D-convolution/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/a-primary-neural-network-framwork-by-python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy concatenate, stack, split, insert, delete/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy dimension operation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/cheatsheets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Latex-Math-Syntax/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

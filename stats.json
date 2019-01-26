@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---numpy-dimension-operation": [
-      "path---numpy-dimension-operation-888b80d061120f964933.js",
-      "path---numpy-dimension-operation-888b80d061120f964933.js.map"
+      "path---numpy-dimension-operation-705fe5a88cda50495757.js",
+      "path---numpy-dimension-operation-705fe5a88cda50495757.js.map"
     ],
     "path---back-propagation-based-on-matrix-derivative": [
       "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js",
@@ -29,8 +29,8 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----4263ed993e4dab39f165.js",
-      "path----4263ed993e4dab39f165.js.map"
+      "path----bf3ac622286b04c16d32.js",
+      "path----bf3ac622286b04c16d32.js.map"
     ],
     "path---python-scope": [
       "path---python-scope-33d56b83f932eba98dc0.js",
@@ -61,12 +61,12 @@
       "path---cheatsheets-2a0da7f023f7c6357e2c.js.map"
     ],
     "path---numpy-concatenate-stack-split-insert-delete": [
-      "path---numpy-concatenate-stack-split-insert-delete-3f4c506e4455edebf1d2.js",
-      "path---numpy-concatenate-stack-split-insert-delete-3f4c506e4455edebf1d2.js.map"
+      "path---numpy-concatenate-stack-split-insert-delete-8dc39ec99a337aa2eb36.js",
+      "path---numpy-concatenate-stack-split-insert-delete-8dc39ec99a337aa2eb36.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-050060ed00f06c61ee72.js",
-      "component---src-layouts-index-js-050060ed00f06c61ee72.js.map"
+      "component---src-layouts-index-js-2eb9a3b4c6588815ca5a.js",
+      "component---src-layouts-index-js-2eb9a3b4c6588815ca5a.js.map"
     ],
     "path---a-primary-neural-network-framwork-by-python": [
       "path---a-primary-neural-network-framwork-by-python-3b4ab4080106a93758b2.js",
@@ -118,10 +118,14 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---latex-math-syntax": [
+      "path---latex-math-syntax-01ad726a65dc1c0e5dc5.js",
+      "path---latex-math-syntax-01ad726a65dc1c0e5dc5.js.map"
+    ],
     "app": [
-      "app-fb660a14bf016282a495.js",
+      "app-4af323323681973ab3ef.js",
       "build-js-styles.css",
-      "app-fb660a14bf016282a495.js.map",
+      "app-4af323323681973ab3ef.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [

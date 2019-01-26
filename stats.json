@@ -4,6 +4,10 @@
       "path---numpy-dimension-operation-705fe5a88cda50495757.js",
       "path---numpy-dimension-operation-705fe5a88cda50495757.js.map"
     ],
+    "path---vs-code-for-la-tex": [
+      "path---vs-code-for-la-tex-79b11cf9accc993134fe.js",
+      "path---vs-code-for-la-tex-79b11cf9accc993134fe.js.map"
+    ],
     "path---back-propagation-based-on-matrix-derivative": [
       "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js",
       "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js.map"
@@ -29,8 +33,8 @@
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----bf3ac622286b04c16d32.js",
-      "path----bf3ac622286b04c16d32.js.map"
+      "path----295fb9ee19c0585c4e26.js",
+      "path----295fb9ee19c0585c4e26.js.map"
     ],
     "path---python-scope": [
       "path---python-scope-33d56b83f932eba98dc0.js",
@@ -65,8 +69,8 @@
       "path---numpy-concatenate-stack-split-insert-delete-8dc39ec99a337aa2eb36.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-2eb9a3b4c6588815ca5a.js",
-      "component---src-layouts-index-js-2eb9a3b4c6588815ca5a.js.map"
+      "component---src-layouts-index-js-d34f6105ea22dc9c6135.js",
+      "component---src-layouts-index-js-d34f6105ea22dc9c6135.js.map"
     ],
     "path---a-primary-neural-network-framwork-by-python": [
       "path---a-primary-neural-network-framwork-by-python-3b4ab4080106a93758b2.js",
@@ -123,9 +127,9 @@
       "path---latex-math-syntax-01ad726a65dc1c0e5dc5.js.map"
     ],
     "app": [
-      "app-4af323323681973ab3ef.js",
+      "app-2b6365ca786e2cf46939.js",
       "build-js-styles.css",
-      "app-4af323323681973ab3ef.js.map",
+      "app-2b6365ca786e2cf46939.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [

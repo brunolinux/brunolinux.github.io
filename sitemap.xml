@@ -25,6 +25,8 @@
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/cheatsheets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/success/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy-basic-indexing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/Numpy-advanced-indexing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-starter-personal-blog.greglobinski.com/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

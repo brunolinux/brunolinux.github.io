@@ -9,8 +9,8 @@
       "path---vs-code-for-la-tex-79b11cf9accc993134fe.js.map"
     ],
     "path---back-propagation-based-on-matrix-derivative": [
-      "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js",
-      "path---back-propagation-based-on-matrix-derivative-542ffd20b06e173a3cd8.js.map"
+      "path---back-propagation-based-on-matrix-derivative-a381aeed00a6aa606a26.js",
+      "path---back-propagation-based-on-matrix-derivative-a381aeed00a6aa606a26.js.map"
     ],
     "path---ft-dtft-dtfs-dft": [
       "path---ft-dtft-dtfs-dft-b59a06178aecd7c26d32.js",
@@ -25,28 +25,32 @@
       "path---spatial-frequency-35a60c1abf17e05697b6.js.map"
     ],
     "path---dark-net-framework-introduction": [
-      "path---dark-net-framework-introduction-394a327084a47a0b4ff5.js",
-      "path---dark-net-framework-introduction-394a327084a47a0b4ff5.js.map"
+      "path---dark-net-framework-introduction-78c1ff5af29f821b6646.js",
+      "path---dark-net-framework-introduction-78c1ff5af29f821b6646.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
     ],
     "path---": [
-      "path----502ccf8c667d258f34ee.js",
-      "path----502ccf8c667d258f34ee.js.map"
+      "path----402d1b333016545075dc.js",
+      "path----402d1b333016545075dc.js.map"
     ],
     "path---python-scope": [
       "path---python-scope-33d56b83f932eba98dc0.js",
       "path---python-scope-33d56b83f932eba98dc0.js.map"
     ],
     "path---ai-ml-learning-path": [
-      "path---ai-ml-learning-path-7e1a2613a37efa94e053.js",
-      "path---ai-ml-learning-path-7e1a2613a37efa94e053.js.map"
+      "path---ai-ml-learning-path-e6527c3c66f4b81efa3b.js",
+      "path---ai-ml-learning-path-e6527c3c66f4b81efa3b.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-f48643e2bf24381f2f16.js",
       "component---src-pages-contact-js-f48643e2bf24381f2f16.js.map"
+    ],
+    "path---gis-coordinate-system": [
+      "path---gis-coordinate-system-b0c4ff1145b65ac4d84d.js",
+      "path---gis-coordinate-system-b0c4ff1145b65ac4d84d.js.map"
     ],
     "path---2-d-fft": [
       "path---2-d-fft-bcd21b8e11912caebc39.js",
@@ -69,20 +73,20 @@
       "path---numpy-concatenate-stack-split-insert-delete-8dc39ec99a337aa2eb36.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-89a979d94f5da95212dc.js",
-      "component---src-layouts-index-js-89a979d94f5da95212dc.js.map"
+      "component---src-layouts-index-js-7db58e6905ebb754815b.js",
+      "component---src-layouts-index-js-7db58e6905ebb754815b.js.map"
     ],
     "path---a-primary-neural-network-framwork-by-python": [
-      "path---a-primary-neural-network-framwork-by-python-3b4ab4080106a93758b2.js",
-      "path---a-primary-neural-network-framwork-by-python-3b4ab4080106a93758b2.js.map"
+      "path---a-primary-neural-network-framwork-by-python-4917e7d549ec4d5835ec.js",
+      "path---a-primary-neural-network-framwork-by-python-4917e7d549ec4d5835ec.js.map"
     ],
     "path---1-d-convolution": [
       "path---1-d-convolution-29029188356464289982.js",
       "path---1-d-convolution-29029188356464289982.js.map"
     ],
     "path---matrix-derivative": [
-      "path---matrix-derivative-cf0aa73d3281dead017c.js",
-      "path---matrix-derivative-cf0aa73d3281dead017c.js.map"
+      "path---matrix-derivative-fd137453230f977a5826.js",
+      "path---matrix-derivative-fd137453230f977a5826.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -126,14 +130,18 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---gis-data-standard": [
+      "path---gis-data-standard-f10dd5501c72839e956d.js",
+      "path---gis-data-standard-f10dd5501c72839e956d.js.map"
+    ],
     "path---latex-math-syntax": [
       "path---latex-math-syntax-01ad726a65dc1c0e5dc5.js",
       "path---latex-math-syntax-01ad726a65dc1c0e5dc5.js.map"
     ],
     "app": [
-      "app-14263856362b927633fe.js",
+      "app-b8f44d34a3affc68ac92.js",
       "build-js-styles.css",
-      "app-14263856362b927633fe.js.map",
+      "app-b8f44d34a3affc68ac92.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
@@ -153,8 +161,8 @@
       "path---search-976222e0528a751b1f5c.js.map"
     ],
     "path---dark-net-cnn-analyse": [
-      "path---dark-net-cnn-analyse-2fb8b3c0e26022efa4bc.js",
-      "path---dark-net-cnn-analyse-2fb8b3c0e26022efa4bc.js.map"
+      "path---dark-net-cnn-analyse-0d0a305d10100d731d0d.js",
+      "path---dark-net-cnn-analyse-0d0a305d10100d731d0d.js.map"
     ],
     "path---about": [
       "path---about-e615814945a5d53f62fa.js",
